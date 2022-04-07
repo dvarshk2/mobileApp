@@ -1,0 +1,226 @@
+
+/*************Hero section css *******************/
+#hero{
+	background-image:linear-gradient(rgb(218,51,45,0.6),rgb(218,51,45,0.6)),url('../images/bg-img.png');
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	padding:40px 0;
+	overflow-y:hidden;
+	/* height:850px; */
+}
+.logo a{
+	display:table;
+	width:100%;
+	clear:both;
+}
+.nav li{
+	display:inline-block;
+	margin-left:10px;
+}
+.nav li a{
+	text-transform:uppercase;
+	color:#fff;
+	font-size:16px;
+	cursor:pointer;
+	padding:10px;
+	display:inline-block;
+	position:relative;
+}
+.nav li a::after{
+	content:'';
+	position:absolute;
+	height:2px;
+	width:0%;
+	background-color:#fff;
+	left:0;
+	bottom:0;
+	transition:all 0.5s ease-in-out;
+}
+.nav li a:hover::after{
+	width:100%;
+}
+.nav li:last-child a{
+	padding-right:0;
+}
+
+.cta-info h2{
+	font-size:52px;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:60px;
+	text-transform:uppercase;
+	line-height:57px;
+}
+.cta-info p{
+	color:#fff;
+	font-size:36px;
+	margin-bottom:55px;
+	line-height:40px;
+}
+.cta-info a{
+	padding:12px 55px 12px 35px;
+	background-color:#282828;
+	font-size:18px;
+	color:#fff;
+	text-transform:uppercase;
+	border-radius:50px;
+}
+.cta-info a i{
+	margin-right:45px;
+	font-size:45px;
+	vertical-align:middle;
+}
+.cta-img{
+	position:relative;
+}
+.cta-img img{
+	position:absolute;
+	right:0;
+}
+
+
+/* -----------------  App features section css  --------------------------*/
+
+#app-features{
+	padding:85px 0 110px;
+}
+.heading-features h2{
+	margin-bottom:45px;
+	font-size:52px;
+	color:#8a8a8a;
+	text-transform:uppercase;
+}
+.heading-features p{
+	font-size:22px;
+	color:#3a3a3a;
+	/* margin-bottom:70px; */
+}
+.thumbHeading{
+	margin:35px 0 45px;
+	text-transform:uppercase;
+	font-size:24px;
+	color:#1a1a1a
+}
+.thumbPara{
+	font-size:18px;
+	color:#646464;
+	padding:0 35px;
+}
+
+/*..............3rs section css................*/
+.sec-bgImg{
+	background-color:#d7dedc;
+	background-image:url("../images/joker.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+.triple{
+	padding:200px 0 170px;
+}
+.sec-head{
+	font-size:52px;
+	font-weight:bold;
+	color:#f45150;
+	text-transform:uppercase;
+	margin-bottom:55px;
+}
+.textWhite{
+	color:#fff;
+}
+.sec-para{
+	color:#585858;
+	font-size:24px;
+	margin-bottom:75px;
+}
+.triple a{
+	padding: 18px 25px;
+	background-color:#d9332d;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	text-transform:uppercase;
+	border-radius:30px;
+}
+/*----------mobileApp Section-------------*/
+.mobileapp{
+	background-color:#2e2e38;
+	padding:120px 0 150px;
+}
+.footerImg{
+	
+}
+.label{
+	font-size:20px;
+	color:#fff;
+	text-transform:capitalize;
+}
+.info,.box{
+	float:left;
+}
+.box{
+	height:40px;
+	width:50px;
+	background-color:#e74c3c;
+}
+.info{
+	color:#fff;
+	margin-left:15px;
+	font-size:15px;
+	font-weight:400;
+}
+.tweeter{
+	color:#fff;
+	padding-right:140px;
+}
+.tweeter label{
+	font-size:14px;
+	
+}
+.tweeter p{
+	font-size:11px;
+}
+.tweeter .para2{
+	font-size:15px;
+}
+.about{
+	color:#fff;
+	padding-right:80px;
+}
+.about p{
+	font-style:italic;
+	font-size:15px;
+	color:#fff;
+}
+footer{
+	padding :45px 0 40px;
+	color:#d7dedc;
+}
+footer .row{
+	padding:0 60px;
+}
+.copyri8,.footerIcons{
+	float:left;
+}
+.copyri8 a{
+	font-size:26px;
+	color:#000;
+	border-right:2px solid #000;
+	padding:4px;
+}
+.footerIcons{
+	margin-left:30px;
+}
+.footerIcons i{
+	font-size:30px;
+	color:#4e67a4;
+	padding:0 20px;
+}
+.footerIcons i:last-child{
+	color:#96e4e6;
+}
+.footerIcons i:nth-child(2){
+	color:#dc3b7a;
+}
